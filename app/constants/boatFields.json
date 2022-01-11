@@ -1,0 +1,11 @@
+[
+  { "title": "Name of ship", "field": "name" },
+  { "title": "IMO number", "field": "imonumber" },
+  { "title": "Call sign", "field": "callsign" },
+  { "title": "Flag State of ship", "field": "flagstateofship" },
+  { "title": "Voyage number", "field": "voyagenumber" },
+  { "title": "Port of arrival/departure", "field": "portofarrival" },
+  { "title": "Date of arrival/departure", "field": "dateofarrival" },
+  { "title": "Last port of call", "field": "lastportofcall" },
+  { "title": "Internal ID", "field": "id" }
+]

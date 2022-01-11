@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Mah boat",
+    "imonumber": "asdf",
+    "callsign": "kjlh",
+    "flagstateofship": "kljh",
+    "voyagenumber": "lkjj",
+    "portofarrival": "hkljh",
+    "dateofarrival": "kljh",
+    "lastportofcall": "lkjh",
+    "listOfCrew": [
+      {
+        "number": "1",
+        "familyname": "chutiya singh",
+        "givenname": "",
+        "rank": "",
+        "nationality": "",
+        "dob": "",
+        "placeofbirth": "",
+        "gender": "",
+        "natureofidentitydoc": "",
+        "numberofidentitydoc": "",
+        "issuestateofidentitydoc": "",
+        "expirydateofidentitydoc": "",
+        "id": "99af795d-9165-43f4-bb36-46af958b1c39"
+      },
+      {
+        "number": "2",
+        "familyname": "santa 2 singh",
+        "givenname": "",
+        "rank": "",
+        "nationality": "",
+        "dob": "",
+        "placeofbirth": "",
+        "gender": "",
+        "natureofidentitydoc": "",
+        "numberofidentitydoc": "",
+        "issuestateofidentitydoc": "",
+        "expirydateofidentitydoc": "",
+        "id": "17c0094a-7009-403e-a328-151117b0c69e"
+      },
+      {
+        "number": "3",
+        "familyname": "banta singh",
+        "givenname": "",
+        "rank": "",
+        "nationality": "",
+        "dob": "",
+        "placeofbirth": "",
+        "gender": "transgender",
+        "natureofidentitydoc": "",
+        "numberofidentitydoc": "",
+        "issuestateofidentitydoc": "",
+        "expirydateofidentitydoc": "",
+        "id": "722685b3-1ab8-4273-9ee5-532959f5324e"
+      }
+    ],
+    "id": "832ad9d2-fcb1-4f0b-adbc-471269678826"
+  }
+]

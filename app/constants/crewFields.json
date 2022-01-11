@@ -1,0 +1,15 @@
+[
+  { "title": "No.", "field": "number" },
+  { "title": "Family name", "field": "familyname" },
+  { "title": "Given  names", "field": "givenname" },
+  { "title": "Rank or rating", "field": "rank" },
+  { "title": "Nationality", "field": "nationality" },
+  { "title": "Date of birth", "field": "dob" },
+  { "title": "Place of birth", "field": "placeofbirth" },
+  { "title": "Gender", "field": "gender" },
+  { "title": "Nature of identity document", "field": "natureofidentitydoc" },
+  { "title": "Number of identity document", "field": "numberofidentitydoc" },
+  { "title": "Issuing State of identity document", "field": "issuestateofidentitydoc" },
+  { "title": "Expiry date of identity document", "field": "expirydateofidentitydoc" },
+  { "title": "Internal ID", "field": "id" }
+]

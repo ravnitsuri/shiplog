@@ -1,0 +1,40 @@
+* {
+  transition: ease-in 200ms;
+}
+
+.santa {
+  position: fixed;
+  font-size: 700px;
+  right: -350px;
+  top: 0;
+  animation-name: peekingSanta;
+  animation-duration: 60000ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  pointer-events: none;
+  transform: rotate(-2deg) translate(422px, 61px);
+}
+
+/* hidden santa */
+/* 
+transform: rotate(
+-2deg) translate(422px, 61px);
+*/
+
+@keyframes peekingSanta {
+  0%, 80% {
+    transform: rotate(-2deg) translate(422px, 61px);
+  }
+
+  81%, 95% {
+    transform: rotate(-20deg) translate(150px, 61px);
+
+  }
+
+  95%, 99% {
+    transform: rotate(-25deg) translate(-23px, 61px);
+  }
+  100% {
+    transform: rotate(-2deg) translate(422px, 61px);
+  }
+}
