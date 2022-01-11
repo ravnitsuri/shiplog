@@ -8,3 +8,8 @@
 npm install
 npm run dev
 ```
+
+## Technologies used:
+1) Remix (fullstack javascript framework)
+2) Docxtemplater/pizzip (word document manupulation)
+3) Pico.css (for those sweet sweet styles)
