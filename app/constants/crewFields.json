@@ -1,7 +1,7 @@
 [
   { "title": "No.", "field": "number" },
   { "title": "Family name", "field": "familyname" },
-  { "title": "Given  names", "field": "givenname" },
+  { "title": "Given  names", "field": "givename" },
   { "title": "Rank or rating", "field": "rank" },
   { "title": "Nationality", "field": "nationality" },
   { "title": "Date of birth", "field": "dob" },

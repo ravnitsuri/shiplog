@@ -1,5 +1,7 @@
 import path from "path";
 import fs from "fs/promises";
+import fse from "fs-extra";
+import { createFileName } from "~/utilities/filenameFromDate";
 
 const PizZip = require("pizzip");
 const Docxtemplater = require("docxtemplater");
@@ -8,12 +10,11 @@ const shipsPath = path.join(__dirname, "../", "inputs", "ships.json");
 
 const inputFilePath = path.join(__dirname, "../", "inputs", "edited_form.docx");
 
-const outputFilePath = path.join(
-  __dirname,
+const outputFilePath = path.join(__dirname,
   "../",
-  "outputs",
-  `output-${new Date().toLocaleString().replaceAll("/", "-").replace(", ", "_").replace(" ", "_")}.docx`
-);
+  "outputs");
+
+const outputFileName = `output-${createFileName(new Date())}.docx`
 
 export async function generateDocument({ shipId }) {
   let ships = await fs.readFile(shipsPath, { encoding: "utf-8" });
@@ -34,7 +35,9 @@ export async function generateDocument({ shipId }) {
 
   const buf = doc.getZip().generate({ type: "nodebuffer" });
 
-  await fs.writeFile(outputFilePath, buf, { flag: "w" });
+  await fse.ensureDir(outputFilePath);
+
+  await fse.writeFile(path.join(outputFilePath, outputFileName), buf, { flag: "w+" });
 
   return ship;
 }
